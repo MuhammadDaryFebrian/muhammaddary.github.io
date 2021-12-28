@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 1280px;
+	height: 768px;
+	position: relative;
+}
+
+/* Header */
+#header-wrapper {
+	position: relative;
+	width: 2000px;
+	height: 100px;
+	background-color: rgba(245, 238, 238, 0.2);
+}
+
+#header {
+	margin: 0 auto;
+	height: 100px;
+	background-color: rgba(245, 239, 239, 0.1);
+}
+
+#header ul {
+	float: right;
+	list-style: none;
+}
+
+#header ul li {
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 350px;
+	display: inline-block;
+}
+
+#header ul li a {
+	display: block;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+	padding: 10px;
+	color: #0f0f0f;
+}
+
+#header ul li .active {
+	color: #fcfafa;
+}
+
+#header ul li a.hover {
+	color: #0a0a0a;
+}
+
+#logo {
+	float: left;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	color: #0a0a0a
+}
+
+/* Slider */
+#slider-wrapper {
+	position: relative;
+	width: auto;
+	margin-top: 20px;
+	margin-left: 550px;
+	color: #f8f5f5
+}
+
+#slider {
+	margin: 0 auto;
+	font-size: 30px;
+	width: 1080px;
+	height: 50px;
+	background-color: #1A8C60;
+}
+
+#slider h2 {
+	text-align: justify;
+	font-family: 'Times New Roman', Times, serif, cursive;
+	font-size: 40px;
+}
+
+/* Content */
+
+#content-wrapper {
+	position: center;
+	width: 1280px;
+	height: 700px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 1080px;
+	height: 410px;
+
+}
+
+.contentR {
+	position: relative;
+	margin: 0 auto;
+	width: 1080px;
+	height: auto;
+}
+
+.contentR .colom3 {
+	float: left;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 50px;
+	transition: transform .2s;
+	/* animasi zoom */
+	border: 5px solid #030000;
+}
+
+.contentR .colom3:hover {
+	-ms-transform: scale(1.2);
+	/* ukuran zoom IE 9 */
+	-webkit-transform: scale(1.2);
+	/* ukuran zoom Safari 3-8 */
+	transform: scale(1.2);
+	z-index: 1000;
+	/* posisi di atas */
+}
+
+/* Footer */
+
+#footer-wrapper {
+	position: relative;
+	width: 1280px;
+	height: 100px;
+}
+
+#footer {
+	margin-top: 20px;
+	width: 2000px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+#footer p {
+	font-family: 'Hachi Maru Pop', cursive;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 35px;
+	color: #ffffff;
+}

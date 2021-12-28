@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 1280px;
+	height: 768px;
+	position: relative;
+}
+
+/* Header */
+#header-wrapper {
+	position: relative;
+	width: 2000px;
+	height: 100px;
+	background-color: rgba(250, 248, 248, 0.2);
+}
+
+#header {
+	margin: 0 auto;
+	width: 2000px;
+	height: 100px;
+	background-color: rgba(252, 249, 249, 0.1);
+}
+
+#header ul {
+	float: right;
+	list-style: none;
+}
+
+#header ul li {
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 350px;
+	display: inline-block;
+}
+
+#header ul li a {
+	display: block;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+	padding: 10px;
+	color: #f5f3f3;
+}
+
+#header ul li .active {
+	color: #181717;
+}
+
+#header ul li a.hover {
+	color: #000405;
+}
+
+#logo {
+	float: left;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	color: #ffffff
+}
+
+/* Slider */
+#slider-wrapper {
+	position: relative;
+	margin-left: 650px;
+	margin-top: 100px;
+	size: 100%;
+}
+
+#slider {
+	margin: 0 auto;
+	width: 1280px;
+	height: 350px;
+	background-color: #1A8C60;
+
+}
+
+/* Content */
+
+#content-wrapper {
+	position: center;
+	width: 1280px;
+	height: 400px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 1280px;
+	height: 400px;
+
+}
+
+.contentL {
+	float: center;
+	width: 1000px;
+	margin-left: 450px;
+	margin-top: 250px;
+
+}
+
+.contentL h2 {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 40px;
+	margin-left: 300px;
+	color: #f1ebeb;
+}
+
+.contentL h4 {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 30px;
+	color: #ffffff;
+	margin-left: 500px;
+}
+
+
+
+/* Footer */
+
+#footer-wrapper {
+	position: relative;
+	width: 1280px;
+	height: 100px;
+}
+
+#footer {
+	margin-top: 20px;
+	width: 1500px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+#footer p {
+	font-family: 'Hachi Maru Pop', cursive;
+	text-align: center;
+	font-size: 30px;
+	padding-left: 600px;
+	color: #f0e7e7;
+}
